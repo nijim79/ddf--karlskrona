@@ -1,0 +1,57 @@
+concept,color,concept_type,description,description_long,domain,drill_up,indicator_url,name,name_catalog,name_short,scales,source,source_long,source_url,tags
+"befolkning_alder_0_5_ar,,measure,Antal invånare i åldrarna 0-5 år i Karlskrona kommun,,,,,Befolkning (ålder 0-5),Befolkning (ålder 0-5),Befolkning 0-5 år,""[""""linear"""", """"log""""]"",,,,befolkning_ålder"
+"befolkning_alder_6_15_ar,,measure,Antal invånare i åldrarna 6-15 år i Karlskrona kommun,,,,,Befolkning (ålder 6-15),Befolkning (ålder 6-15),Befolkning 6-15 år,""[""""linear"""", """"log""""]"",,,,befolkning_ålder"
+"befolkning_alder_16_24_ar,,measure,Antal invånare i åldrarna 16-24 år i Karlskrona kommun,,,,,Befolkning (ålder 16-24),Befolkning (ålder 16-24),Befolkning 16-24 år,""[""""linear"""", """"log""""]"",,,,befolkning_ålder"
+"befolkning_alder_25_44_ar,,measure,Antal invånare i åldrarna 25-44 år i Karlskrona kommun,,,,,Befolkning (ålder 25-44),Befolkning (ålder 25-44),Befolkning 25-44 år,""[""""linear"""", """"log""""]"",,,,befolkning_ålder"
+"befolkning_alder_45_64_ar,,measure,Antal invånare i åldrarna 45-64 år i Karlskrona kommun,,,,,Befolkning (ålder 45-64),Befolkning (ålder 45-64),Befolkning 45-64 år,""[""""linear"""", """"log""""]"",,,,befolkning_ålder"
+"befolkning_alder_65_War,,measure,Antal invånare i åldrarna 65 och däröver i Karlskrona kommun,,,,,Befolkning (ålder 65 och däröver),Befolkning (ålder 65 och däröver),Befolkning 65 år och däröver ,""[""""linear"""", """"log""""]"",,,,befolkning_ålder"
+"befolkning_total,,measure,Antal invånare i Karlskrona kommun,,,,,Befolkning (alla åldrar),Befolkning (alla åldrar),Befolkning,""[""""linear"""", """"log""""]"",,,,befolkning"
+"boende_efter_bostadstyp_bostadsratt,,measure,Antal boende efter bostadstyp - flerbostadshus bostadsrätt,,,,,Boende efter bostadsrätt,Boende efter bostadsrätt,Boende efter bostadsrätt,""[""""linear"""", """"log""""]"",,,,boende_bostadsrätt"
+"boende_efter_bostadstyp_flerbostadshus_hyresratt,,measure,Antal boende efter bostadstyp - flerbostadshus hyresrätt,,,,,Boende efter flerbostadshus hyresrätt,Boende efter flerbostadshus hyresrätt,Boende efter hyresrätt,""[""""linear"""", """"log""""]"",,,,boende_flerbostadshus_hyresrätt"
+"boende_efter_bostadstyp_smahus,,measure,Antal boende efter bostadstyp - småhus,,,,,Boende efter småhus,Boende efter småhus,Boende efter småhus,""[""""linear"""", """"log""""]"",,,,boende_smahus"
+"forvarvsfrekvens_kvinnor,,measure,Förvärvsfrekvens för kvinnor i Karlskrona kommun,,,,,Förvärvsfrekvens (% - Kvinnor),Förvärvsfrekvens (% - Kvinnor),Förvärvsfrekvens (% - Kvinnor),""[""""linear"""", """"log""""]"",,,,forvarvsfrekvens_kvinnor"
+"forvarvsfrekvens_man,,measure,Förvärvsfrekvens för män i Karlskrona kommun,,,,,Förvärvsfrekvens (% - Män),Förvärvsfrekvens (% - Män),Förvärvsfrekvens (% - Män),""[""""linear"""", """"log""""]"",,,,forvarvsfrekvens_man"
+"forvarvsfrekvens_summa,,measure,Total förvärvsfrekvens för män och kvinnor i Karlskrona kommun,,,,,Förvärvsfrekvens (% - Total),Förvärvsfrekvens (% - Total),Förvärvsfrekvens (% - Total),""[""""linear"""", """"log""""]"",,,,forvarvsfrekvens"
+"inrikes_fodda_kvinnor,,measure,Antal inrikes födda kvinnor i Karlskrona kommun,,,,,Inrikes födda (Kvinnor),Inrikes födda (Kvinnor),Inrikes födda Kvinnor,""[""""linear"""", """"log""""]"",,,,inrikes_fodda_kvinnor"
+"inrikes_fodda_man,,measure,Antal inrikes födda män i Karlskrona kommun,,,,,Inrikes födda (Män),Inrikes födda (Män),Inrikes födda Män,""[""""linear"""", """"log""""]"",,,,inrikes_fodda_man"
+"inrikes_fodda_summa,,measure,Antal inrikes födda i Karlskrona kommun,,,,,Inrikes födda (Summa),Inrikes födda (Summa),Inrikes födda Summa,""[""""linear"""", """"log""""]"",,,,inrikes_fodda"
+"medelinkomst_20_64_ar_kvinnor,,measure,Medelinkomst för sammanräknad förvärvsinkomst 20-64 år - kvinnor,,,,,Medelinkomst (Kvinnor) 20-64 år,Medelinkomst (Kvinnor) 20-64 år,Medelinkomst Kvinnor 20-64 år,""[""""linear"""", """"log""""]"",,,,medelinkomst_kvinnor"
+"medelinkomst_20_64_ar_man,,measure,Medelinkomst för sammanräknad förvärvsinkomst 20-64 år - män,,,,,Medelinkomst (Män) 20-64 år,Medelinkomst (Män) 20-64 år,Medelinkomst Män 20-64 år,""[""""linear"""", """"log""""]"",,,,medelinkomst_man"
+"medelinkomst_20-64_ar_totalt,,measure,Medelinkomst för sammanräknad förvärvsinkomst 20-64 år - totalt,,,,,Medelinkomst 20-64 år,Medelinkomst 20-64 år,Medelinkomst 20-64 år,""[""""linear"""", """"log""""]"",,,,medelinkomst"
+"nettoflytt_arb,,measure,Antal inflyttade minus antal utflyttade, antal med arbete (med arbete innebär att personen har ett förvärvsarbete, vid respektive årsskifte, efter flytt),,,,,Antal inflyttade minus antal utflyttade (arbete),Antal inflyttade minus antal utflyttade (arbete),Antal inflyttade minus antal utflyttade (arbete),""[""""linear"""", """"log""""]"",,,,nettoflytt_arbete"
+"nettoflytt_utb,,measure,Antal inflyttade minus antal utflyttade, antal med lång utbildning (lång utbildning innebär att personen har minst 3-årig eftergymnasial utbildning, vid respektive årsskifte, efter flytt),,,,,Antal inflyttade minus antal utflyttade (utbildning),Antal inflyttade minus antal utflyttade (utbildning),Antal inflyttade minus antal utflyttade (utbildning),""[""""linear"""", """"log""""]"",,,,nettoflytt_utbildning"
+"utrikes_fodda_kvinnor,,measure,Antal utrikes födda kvinnor i Karlskrona kommun,,,,,Utrikes födda (Kvinnor),Utrikes födda (Kvinnor),Utrikes födda Kvinnor,""[""""linear"""", """"log""""]"",,,,utrikes_fodda_kvinnor"
+"utrikes_fodda_man,,measure,Antal utrikes födda män i Karlskrona kommun,,,,,Utrikes födda (Män),Utrikes födda (Män),Utrikes födda Män,""[""""linear"""", """"log""""]"",,,,utrikes_fodda_man"
+"utrikes_fodda_summa,,measure,Antal utrikes födda i Karlskrona kommun,,,,,Utrikes födda (Summa),Utrikes födda (Summa),Utrikes födda (Summa),""[""""linear"""", """"log""""]"",,,,utrikes_fodda"
+"kommun_5delar,""{""""shades"""": {""""fill3"""": 2, """"print_stroke"""": 5, """"print_fill"""": 4, """"fill2"""": 1, """"shade"""": 3, """"fill1"""": 0}, """"palette"""": {""""kna501"""": [""""#7feb00"""", """"#5de200"""", """"#81f201"""", """"#00b900"""", """"#b5ea32"""", """"#008d36""""], """"kna502"""": [""""#ffe700"""", """"#fbdd00"""", """"#fff400"""", """"#fbaf09"""", """"#ffe700"""", """"#b17f4a""""], """"kna503"""": [""""#00d5e9"""", """"#00c8ec"""", """"#00e1ec"""", """"#0098df"""", """"#77dff7"""", """"#0586c6""""], """"kna504"""": [""""#ff5872"""", """"#ff5178"""", """"#ff658a"""", """"#da0025"""", """"#fa4e73"""", """"#b2043a""""],""""kna505"""": [""""#ffb600"""", """"#ffaa14"""", """"#ffc500"""", """"#fb6d19"""", """"#ffb600"""", """"#9b4838""""], """"_default"""": [""""#ffb600"""", """"#ffaa14"""", """"#ffc500"""", """"#fb6d19"""", """"#ffb600"""", """"#9b4838""""]}, """"selectable"""": false}"",entity_set,,,geo,,,Kommun delar,,,,,,,categorizations"
+color,,string,,,,,,Color,,,,,,,_none
+description,,string,,,,,,Description,,,,,,,_none
+"latitude,,measure,,,,,,Latitude,,,""[""""linear""""]"",,,,_none"
+"longitude,,measure,,,,,,Longitude,,,""[""""linear""""]"",,,,_none"
+name,,string,,,,,,Name,,,,,,,_none
+name_long,,string,,,,,,Name Long,,,,,,,_none
+name_short,,string,,,,,,Short Name,,,,,,,_none
+shape_lores_svg,,string,,,,,,Shapes,,,,,,,_none
+"kommun_13delar,""{""""palette"""": {""""k800"""": """"#9900FF"""", """"k801"""": """"#FF0000"""", """"k802"""": """"#B0B0B0"""", """"k803"""": """"#FFEABE"""", """"k804"""": """"#FFFF00"""", """"k805"""": """"#99FF00"""", """"k806"""": """"#0FE7FF"""", """"k807"""": """"#00A6FF"""", """"k808"""": """"#BEE8FF"""", """"k1"""": """"#1F39FF"""", """"k6"""": """"#66FF00"""", """"k81"""": """"#FFBB00"""", """"k2"""": """"#FF00B7""""}, """"selectable"""": false}"",entity_set,,,geo,,,Kommun delar (13 colors),,,,,,,categorizations"
+kommundel,,entity_set,,,geo,,,Kommundel,,,,,,,categorizations
+alternative_4_cdiac,,string,,,,,,Alternative 4 (CDIAC),,,,,,,_none
+gapminder_list,,string,,,,,,Gapminder list,,,,,,,_none
+pandg,,string,,,,,,pandg,,,,,,,_none
+upper_case_name,,string,,,,,,Upper Case Name,,,,,,,_none
+global,,entity_set,,,geo,,,World,,,,,,,_none
+topojson,,string,,,,,,A file name for static topojson Karlskrona kommun map,,,,,,,_none
+unicode_region_subtag,,string,,,,,,Unicode CLDR Region subtag,,,,,,,
+parent,,string,,,,,,Tag Parent,,,,,,,_none
+tag,,entity_domain,,,,,,Tag,,,,,,,_none
+tags,,string,,,,,,Tags,,,,,,,_none
+time,,time,,,,,,Time,,,,,,,_root
+description_long,,string,,,,,,Description Long Text,,,,,,,_none
+domain,,string,,,,,,Domain,,,,,,,_none
+drill_up,,string,,,,,,Drill up,,,,,,,_none
+indicator_url,,string,,,,,,Indicator URL,,,,,,,_none
+name_catalog,,string,,,,,,Catalog Name,,,,,,,_none
+scales,,string,,,,,,Scales,,,,,,,_none
+source,,string,,,,,,Source,,,,,,,_none
+source_long,,string,,,,,,Source Long Text,,,,,,,_none
+source_url,,string,,,,,,Source URL,,,,,,,_none
+geo,,entity_domain,,,,,,Geographic location,,,,,,,_none

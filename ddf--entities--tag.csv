@@ -1,0 +1,24 @@
+tag,name,parent
+befolkning_alder,Befolkning efter ålder,Befolkning
+befolkning,Befolkning,
+boende_bostadsratt,Boende efter bostadsrätt,Befolkning
+boende_flerbostadshus_hyresratt,Boende efter flerbostadshus hyresrätt,Befolkning
+boende_smahus,Boende efter småhus,Befolkning
+forvarvsfrekvens_kvinnor,Förvärvsfrekvens, kvinnor,arbete
+forvarvsfrekvens_man,Förvärvsfrekvens, män,arbete
+forvarvsfrekvens,Förvärvsfrekvens,arbete
+inrikes_fodda_kvinnor,Inrikes födda, Kvinnor,Befolkning
+inrikes_fodda_man,Inrikes födda, män,Befolkning
+inrikes_fodda,Inrikes födda,Befolkning
+medelinkomst_kvinnor,Medelinkomst, Kvinnor, ålder 20-64 år,ekonomi
+medelinkomst_man,Medelinkomst, män, ålder 20-64 år,ekonomi
+medelinkomst,Medelinkomst efter ålder 20-64 år,ekonomi
+nettoflytt_arbete,Netto inflyttade  (arbete),Befolkning
+nettoflytt_utbildning,Netto inflyttade  (utbildning),Befolkning
+utrikes_fodda_kvinnor,Utrikes födda, kvinnor,Befolkning
+utrikes_fodda_man,Utrikes födda, män,Befolkning
+utrikes_fodda,Utrikes födda,Befolkning
+categorizations,Categorizations,
+utbildning,Utbildning,
+ekonomi,Ekonomi,
+arbete,Arbete,
