@@ -13,8 +13,8 @@ inrikes_fodda,Inrikes födda,Befolkning
 medelinkomst_kvinnor,"Medelinkomst, Kvinnor, ålder 20-64 år",ekonomi
 medelinkomst_man,"Medelinkomst, män, ålder 20-64 år",ekonomi
 medelinkomst,Medelinkomst efter ålder 20-64 år,ekonomi
-nettoflytt_arbete,Netto inflyttade (arbete),Befolkning
-nettoflytt_utbildning,Netto inflyttade (utbildning),Befolkning
+nettoflytt_arb,Netto inflyttade (arbete),migration
+nettoflytt_utb,Netto inflyttade (utbildning),migration
 utrikes_fodda_kvinnor,"Utrikes födda, kvinnor",Befolkning
 utrikes_fodda_man,"Utrikes födda, män",Befolkning
 utrikes_fodda,Utrikes födda,Befolkning
@@ -22,3 +22,4 @@ categorizations,Categorizations,
 utbildning,Utbildning,
 ekonomi,Ekonomi,
 arbete,Arbete,
+migration,Migration,
