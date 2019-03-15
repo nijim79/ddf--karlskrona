@@ -1,0 +1,1492 @@
+{
+  "name": "ddf--karlskrona",
+  "title": "ddf--karlskrona",
+  "description": "",
+  "version": "0.0.1",
+  "language": {
+    "id": "en",
+    "name": "English"
+  },
+  "translations": [],
+  "license": "",
+  "author": "",
+  "resources": [
+    {
+      "path": "ddf--concepts.csv",
+      "name": "ddf--concepts",
+      "schema": {
+        "fields": [
+          {
+            "name": "concept"
+          },
+          {
+            "name": "color"
+          },
+          {
+            "name": "concept_type"
+          },
+          {
+            "name": "description"
+          },
+          {
+            "name": "description_long"
+          },
+          {
+            "name": "domain"
+          },
+          {
+            "name": "drill_up"
+          },
+          {
+            "name": "indicator_url"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "name_catalog"
+          },
+          {
+            "name": "name_short"
+          },
+          {
+            "name": "scales"
+          },
+          {
+            "name": "source"
+          },
+          {
+            "name": "source_long"
+          },
+          {
+            "name": "source_url"
+          },
+          {
+            "name": "tags"
+          }
+        ],
+        "primaryKey": "concept"
+      }
+    },
+    {
+      "path": "ddf--datapoints--befolkning_alder_0_5_ar--by--geo--time.csv",
+      "name": "befolkning_alder_0_5_ar--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "befolkning_alder_0_5_ar"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--befolkning_alder_16_24_ar--by--geo--time.csv",
+      "name": "befolkning_alder_16_24_ar--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "befolkning_alder_16_24_ar"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--befolkning_alder_25_44_ar--by--geo--time.csv",
+      "name": "befolkning_alder_25_44_ar--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "befolkning_alder_25_44_ar"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--befolkning_alder_45_64_ar--by--geo--time.csv",
+      "name": "befolkning_alder_45_64_ar--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "befolkning_alder_45_64_ar"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--befolkning_alder_65_war--by--geo--time.csv",
+      "name": "befolkning_alder_65_war--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "befolkning_alder_65_war"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--befolkning_alder_6_15_ar--by--geo--time.csv",
+      "name": "befolkning_alder_6_15_ar--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "befolkning_alder_6_15_ar"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--befolkning_total--by--geo--time.csv",
+      "name": "befolkning_total--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "befolkning_total"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--boende_efter_bostadstyp_bostadsratt--by--geo--time.csv",
+      "name": "boende_efter_bostadstyp_bostadsratt--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "boende_efter_bostadstyp_bostadsratt"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--boende_efter_bostadstyp_flerbostadshus_hyresratt--by--geo--time.csv",
+      "name": "boende_efter_bostadstyp_flerbostadshus_hyresratt--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "boende_efter_bostadstyp_flerbostadshus_hyresratt"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--boende_efter_bostadstyp_smahus--by--geo--time.csv",
+      "name": "boende_efter_bostadstyp_smahus--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "boende_efter_bostadstyp_smahus"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--forvarvsfrekvens_kvinnor--by--geo--time.csv",
+      "name": "forvarvsfrekvens_kvinnor--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "forvarvsfrekvens_kvinnor"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--forvarvsfrekvens_man--by--geo--time.csv",
+      "name": "forvarvsfrekvens_man--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "forvarvsfrekvens_man"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--forvarvsfrekvens_summa--by--geo--time.csv",
+      "name": "forvarvsfrekvens_summa--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "forvarvsfrekvens_summa"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--inrikes_fodda_kvinnor--by--geo--time.csv",
+      "name": "inrikes_fodda_kvinnor--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "inrikes_fodda_kvinnor"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--inrikes_fodda_man--by--geo--time.csv",
+      "name": "inrikes_fodda_man--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "inrikes_fodda_man"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--inrikes_fodda_summa--by--geo--time.csv",
+      "name": "inrikes_fodda_summa--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "inrikes_fodda_summa"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--medelinkomst_20_64_ar_kvinnor--by--geo--time.csv",
+      "name": "medelinkomst_20_64_ar_kvinnor--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "medelinkomst_20_64_ar_kvinnor"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--medelinkomst_20_64_ar_man--by--geo--time.csv",
+      "name": "medelinkomst_20_64_ar_man--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "medelinkomst_20_64_ar_man"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--medelinkomst_20_64_ar_totalt--by--geo--time.csv",
+      "name": "medelinkomst_20_64_ar_totalt--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "medelinkomst_20_64_ar_totalt"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--nettoflytt_arb--by--geo--time.csv",
+      "name": "nettoflytt_arb--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "nettoflytt_arb"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--nettoflytt_utb--by--geo--time.csv",
+      "name": "nettoflytt_utb--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "nettoflytt_utb"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--utrikes_fodda_kvinnor--by--geo--time.csv",
+      "name": "utrikes_fodda_kvinnor--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "utrikes_fodda_kvinnor"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--utrikes_fodda_man--by--geo--time.csv",
+      "name": "utrikes_fodda_man--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "utrikes_fodda_man"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--utrikes_fodda_summa--by--geo--time.csv",
+      "name": "utrikes_fodda_summa--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "utrikes_fodda_summa"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--entities--geo--global.csv",
+      "name": "geo--global",
+      "schema": {
+        "fields": [
+          {
+            "name": "global"
+          },
+          {
+            "name": "is--global"
+          },
+          {
+            "name": "latitude"
+          },
+          {
+            "name": "longitude"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "topojson"
+          },
+          {
+            "name": "unicode_region_subtag"
+          }
+        ],
+        "primaryKey": "global"
+      }
+    },
+    {
+      "path": "ddf--entities--geo--kommundel.csv",
+      "name": "geo--kommundel",
+      "schema": {
+        "fields": [
+          {
+            "name": "kommundel"
+          },
+          {
+            "name": "alternative_4_cdiac"
+          },
+          {
+            "name": "gapminder_list"
+          },
+          {
+            "name": "latitude"
+          },
+          {
+            "name": "longitude"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "pandg"
+          },
+          {
+            "name": "upper_case_name"
+          },
+          {
+            "name": "kommun_5delar"
+          },
+          {
+            "name": "kommun_13delar"
+          }
+        ],
+        "primaryKey": "kommundel"
+      }
+    },
+    {
+      "path": "ddf--entities--geo--kommun_13delar.csv",
+      "name": "geo--kommun_13delar",
+      "schema": {
+        "fields": [
+          {
+            "name": "kommun_13delar"
+          },
+          {
+            "name": "is--kommun_13delar"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "name_long"
+          },
+          {
+            "name": "name_short"
+          },
+          {
+            "name": "shape_lores_svg"
+          }
+        ],
+        "primaryKey": "kommun_13delar"
+      }
+    },
+    {
+      "path": "ddf--entities--geo--kommun_5delar.csv",
+      "name": "geo--kommun_5delar",
+      "schema": {
+        "fields": [
+          {
+            "name": "kommun_5delar"
+          },
+          {
+            "name": "color"
+          },
+          {
+            "name": "description"
+          },
+          {
+            "name": "is--kommun_5delar"
+          },
+          {
+            "name": "latitude"
+          },
+          {
+            "name": "longitude"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "name_long"
+          },
+          {
+            "name": "name_short"
+          },
+          {
+            "name": "shape_lores_svg"
+          }
+        ],
+        "primaryKey": "kommun_5delar"
+      }
+    },
+    {
+      "path": "ddf--entities--tag.csv",
+      "name": "tag",
+      "schema": {
+        "fields": [
+          {
+            "name": "tag"
+          },
+          {
+            "name": "name"
+          },
+          {
+            "name": "parent"
+          }
+        ],
+        "primaryKey": "tag"
+      }
+    }
+  ],
+  "ddfSchema": {
+    "datapoints": [
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "befolkning_alder_0_5_ar",
+        "resources": [
+          "befolkning_alder_0_5_ar--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "befolkning_alder_16_24_ar",
+        "resources": [
+          "befolkning_alder_16_24_ar--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "befolkning_alder_25_44_ar",
+        "resources": [
+          "befolkning_alder_25_44_ar--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "befolkning_alder_45_64_ar",
+        "resources": [
+          "befolkning_alder_45_64_ar--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "befolkning_alder_65_war",
+        "resources": [
+          "befolkning_alder_65_war--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "befolkning_alder_6_15_ar",
+        "resources": [
+          "befolkning_alder_6_15_ar--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "befolkning_total",
+        "resources": [
+          "befolkning_total--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "boende_efter_bostadstyp_bostadsratt",
+        "resources": [
+          "boende_efter_bostadstyp_bostadsratt--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "boende_efter_bostadstyp_flerbostadshus_hyresratt",
+        "resources": [
+          "boende_efter_bostadstyp_flerbostadshus_hyresratt--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "boende_efter_bostadstyp_smahus",
+        "resources": [
+          "boende_efter_bostadstyp_smahus--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "forvarvsfrekvens_kvinnor",
+        "resources": [
+          "forvarvsfrekvens_kvinnor--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "forvarvsfrekvens_man",
+        "resources": [
+          "forvarvsfrekvens_man--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "forvarvsfrekvens_summa",
+        "resources": [
+          "forvarvsfrekvens_summa--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "inrikes_fodda_kvinnor",
+        "resources": [
+          "inrikes_fodda_kvinnor--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "inrikes_fodda_man",
+        "resources": [
+          "inrikes_fodda_man--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "inrikes_fodda_summa",
+        "resources": [
+          "inrikes_fodda_summa--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "medelinkomst_20_64_ar_kvinnor",
+        "resources": [
+          "medelinkomst_20_64_ar_kvinnor--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "medelinkomst_20_64_ar_man",
+        "resources": [
+          "medelinkomst_20_64_ar_man--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "medelinkomst_20_64_ar_totalt",
+        "resources": [
+          "medelinkomst_20_64_ar_totalt--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "nettoflytt_arb",
+        "resources": [
+          "nettoflytt_arb--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "nettoflytt_utb",
+        "resources": [
+          "nettoflytt_utb--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "utrikes_fodda_kvinnor",
+        "resources": [
+          "utrikes_fodda_kvinnor--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "utrikes_fodda_man",
+        "resources": [
+          "utrikes_fodda_man--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "utrikes_fodda_summa",
+        "resources": [
+          "utrikes_fodda_summa--by--geo--time"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "alternative_4_cdiac",
+        "resources": [
+          "geo--kommundel"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "color",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "description",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "gapminder_list",
+        "resources": [
+          "geo--kommundel"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "is--global",
+        "resources": [
+          "geo--global"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "is--kommun_13delar",
+        "resources": [
+          "geo--kommun_13delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "is--kommun_5delar",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "kommun_13delar",
+        "resources": [
+          "geo--kommundel"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "kommun_5delar",
+        "resources": [
+          "geo--kommundel"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "latitude",
+        "resources": [
+          "geo--global",
+          "geo--kommun_5delar",
+          "geo--kommundel"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "longitude",
+        "resources": [
+          "geo--global",
+          "geo--kommun_5delar",
+          "geo--kommundel"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "name",
+        "resources": [
+          "geo--global",
+          "geo--kommun_13delar",
+          "geo--kommun_5delar",
+          "geo--kommundel"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "name_long",
+        "resources": [
+          "geo--kommun_13delar",
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "name_short",
+        "resources": [
+          "geo--kommun_13delar",
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "pandg",
+        "resources": [
+          "geo--kommundel"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "shape_lores_svg",
+        "resources": [
+          "geo--kommun_13delar",
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "topojson",
+        "resources": [
+          "geo--global"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "unicode_region_subtag",
+        "resources": [
+          "geo--global"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "upper_case_name",
+        "resources": [
+          "geo--kommundel"
+        ]
+      },
+      {
+        "primaryKey": [
+          "global"
+        ],
+        "value": "is--global",
+        "resources": [
+          "geo--global"
+        ]
+      },
+      {
+        "primaryKey": [
+          "global"
+        ],
+        "value": "latitude",
+        "resources": [
+          "geo--global"
+        ]
+      },
+      {
+        "primaryKey": [
+          "global"
+        ],
+        "value": "longitude",
+        "resources": [
+          "geo--global"
+        ]
+      },
+      {
+        "primaryKey": [
+          "global"
+        ],
+        "value": "name",
+        "resources": [
+          "geo--global"
+        ]
+      },
+      {
+        "primaryKey": [
+          "global"
+        ],
+        "value": "topojson",
+        "resources": [
+          "geo--global"
+        ]
+      },
+      {
+        "primaryKey": [
+          "global"
+        ],
+        "value": "unicode_region_subtag",
+        "resources": [
+          "geo--global"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_13delar"
+        ],
+        "value": "is--kommun_13delar",
+        "resources": [
+          "geo--kommun_13delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_13delar"
+        ],
+        "value": "name",
+        "resources": [
+          "geo--kommun_13delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_13delar"
+        ],
+        "value": "name_long",
+        "resources": [
+          "geo--kommun_13delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_13delar"
+        ],
+        "value": "name_short",
+        "resources": [
+          "geo--kommun_13delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_13delar"
+        ],
+        "value": "shape_lores_svg",
+        "resources": [
+          "geo--kommun_13delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_5delar"
+        ],
+        "value": "color",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_5delar"
+        ],
+        "value": "description",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_5delar"
+        ],
+        "value": "is--kommun_5delar",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_5delar"
+        ],
+        "value": "latitude",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_5delar"
+        ],
+        "value": "longitude",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_5delar"
+        ],
+        "value": "name",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_5delar"
+        ],
+        "value": "name_long",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_5delar"
+        ],
+        "value": "name_short",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "kommun_5delar"
+        ],
+        "value": "shape_lores_svg",
+        "resources": [
+          "geo--kommun_5delar"
+        ]
+      },
+      {
+        "primaryKey": [
+          "tag"
+        ],
+        "value": "name",
+        "resources": [
+          "tag"
+        ]
+      },
+      {
+        "primaryKey": [
+          "tag"
+        ],
+        "value": "parent",
+        "resources": [
+          "tag"
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "color",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "concept_type",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "description",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "description_long",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "domain",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "drill_up",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "indicator_url",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "name",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "name_catalog",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "name_short",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "scales",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "source",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "source_long",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "source_url",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "tags",
+        "resources": [
+          "ddf--concepts"
+        ]
+      }
+    ],
+    "synonyms": []
+  }
+}
