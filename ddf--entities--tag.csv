@@ -24,3 +24,5 @@ ekonomi,Ekonomi,
 arbete,Arbete,
 migration,Migration,
 boende,Boende,
+nettoflytt_utb_ackumulerat,Netto inflyttade ackumulerat (arbete),migration
+nettoflytt_arb_ackumulerat,Netto inflyttade ackumulerat (utbildning),migration

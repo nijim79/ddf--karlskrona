@@ -23,7 +23,7 @@ nettoflytt_utb,,measure,"Antal inflyttade minus antal utflyttade, antal med lån
 utrikes_fodda_kvinnor,,measure,Antal utrikes födda kvinnor i Karlskrona kommun,,,,,Utrikes födda (Kvinnor),Utrikes födda (Kvinnor),Utrikes födda Kvinnor,"[""linear"", ""log""]",,,,utrikes_fodda_kvinnor
 utrikes_fodda_man,,measure,Antal utrikes födda män i Karlskrona kommun,,,,,Utrikes födda (Män),Utrikes födda (Män),Utrikes födda Män,"[""linear"", ""log""]",,,,utrikes_fodda_man
 utrikes_fodda_summa,,measure,Antal utrikes födda i Karlskrona kommun,,,,,Utrikes födda (Summa),Utrikes födda (Summa),Utrikes födda (Summa),"[""linear"", ""log""]",,,,utrikes_fodda
-kommun_5delar,"{""shades"": {""fill3"": 2, ""print_stroke"": 5, ""print_fill"": 4, ""fill2"": 1, ""shade"": 3, ""fill1"": 0}, ""palette"": {""kna501"": [""#7feb00"", ""#5de200"", ""#81f201"", ""#00b900"", ""#b5ea32"", ""#008d36""], ""kna502"": [""#ffe700"", ""#fbdd00"", ""#fff400"", ""#fbaf09"", ""#ffe700"", ""#b17f4a""], ""kna503"": [""#00d5e9"", ""#00c8ec"", ""#00e1ec"", ""#0098df"", ""#77dff7"", ""#0586c6""], ""kna504"": [""#ff5872"", ""#ff5178"", ""#ff658a"", ""#da0025"", ""#fa4e73"", ""#b2043a""],""kna505"": [""#ffb600"", ""#ffaa14"", ""#ffc500"", ""#fb6d19"", ""#ffb600"", ""#9b4838""], ""_default"": [""#ffb600"", ""#ffaa14"", ""#ffc500"", ""#fb6d19"", ""#ffb600"", ""#9b4838""]}, ""selectable"": false}",entity_set,,,geo,,,Kommun delar,,,,,,,categorizations
+kommun_5delar,"{""shades"": {""fill3"": 2, ""print_stroke"": 5, ""print_fill"": 4, ""fill2"": 1, ""shade"": 3, ""fill1"": 0}, ""palette"": {""kna501"": [""#7feb00"", ""#5de200"", ""#81f201"", ""#00b900"", ""#b5ea32"", ""#008d36""], ""kna502"": [""#ffe700"", ""#fbdd00"", ""#fff400"", ""#fbaf09"", ""#ffe700"", ""#b17f4a""], ""kna503"": [""#00d5e9"", ""#00c8ec"", ""#00e1ec"", ""#0098df"", ""#77dff7"", ""#0586c6""], ""kna504"": [""#ff5872"", ""#ff5178"", ""#ff658a"", ""#da0025"", ""#fa4e73"", ""#b2043a""],""kna505"": [""#ffb600"", ""#ffaa14"", ""#ffc500"", ""#fb6d19"", ""#ffb600"", ""#9b4838""], ""_default"": [""#ffb600"", ""#ffaa14"", ""#ffc500"", ""#fb6d19"", ""#ffb600"", ""#9b4838""]}, ""selectable"": false}",entity_set,,,geo,,,Kommundelar,,,,,,,categorizations
 color,,string,,,,,,Color,,,,,,,_none
 description,,string,,,,,,Description,,,,,,,_none
 latitude,,measure,,,,,,Latitude,,,"[""linear""]",,,,_none
@@ -32,7 +32,7 @@ name,,string,,,,,,Name,,,,,,,_none
 name_long,,string,,,,,,Name Long,,,,,,,_none
 name_short,,string,,,,,,Short Name,,,,,,,_none
 shape_lores_svg,,string,,,,,,Shapes,,,,,,,_none
-kommun_13delar,"{""palette"": {""k800"": ""#9900FF"", ""k801"": ""#FF0000"", ""k802"": ""#B0B0B0"", ""k803"": ""#FFEABE"", ""k804"": ""#FFFF00"", ""k805"": ""#99FF00"", ""k806"": ""#0FE7FF"", ""k807"": ""#00A6FF"", ""k808"": ""#BEE8FF"", ""k1"": ""#1F39FF"", ""k6"": ""#66FF00"", ""k81"": ""#FFBB00"", ""k2"": ""#FF00B7""}, ""selectable"": false}",entity_set,,,geo,,,Kommun delar (13 colors),,,,,,,categorizations
+kommun_13delar,"{""palette"": {""k800"": ""#9900FF"", ""k801"": ""#FF0000"", ""k802"": ""#B0B0B0"", ""k803"": ""#FFEABE"", ""k804"": ""#FFFF00"", ""k805"": ""#99FF00"", ""k806"": ""#0FE7FF"", ""k807"": ""#00A6FF"", ""k808"": ""#BEE8FF"", ""k1"": ""#1F39FF"", ""k6"": ""#66FF00"", ""k81"": ""#FFBB00"", ""k2"": ""#FF00B7""}, ""selectable"": false}",entity_set,,,geo,,,Kommundelar (13 colors),,,,,,,categorizations
 kommundel,,entity_set,,,geo,,,Kommundel,,,,,,,categorizations
 alternative_4_cdiac,,string,,,,,,Alternative 4 (CDIAC),,,,,,,_none
 gapminder_list,,string,,,,,,Gapminder list,,,,,,,_none
@@ -55,3 +55,5 @@ source,,string,,,,,,Source,,,,,,,_none
 source_long,,string,,,,,,Source Long Text,,,,,,,_none
 source_url,,string,,,,,,Source URL,,,,,,,_none
 geo,,entity_domain,,,,,,Geographic location,,,,,,,_none
+nettoflytt_utb_ackumulerat,,measure,"Antal inflyttade minus antal utflyttade ackumulerat, antal med arbete (med arbete innebär att personen har ett förvärvsarbete, vid respektive årsskifte, efter flytt)",,,,,"Antal inflyttade minus antal utflyttade ackumulerat (arbete)",,,,,,,nettoflytt_utb_ackumulerat
+nettoflytt_arb_ackumulerat,,measure,"Antal inflyttade minus antal utflyttade ackumulerat, antal med lång utbildning (lång utbildning innebär att personen har minst 3-årig eftergymnasial utbildning, vid respektive årsskifte, efter flytt)",,,,,"Antal inflyttade minus antal utflyttade (utbildning)",,,,,,,nettoflytt_arb_ackumulerat

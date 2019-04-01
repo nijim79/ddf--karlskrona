@@ -489,6 +489,27 @@
       }
     },
     {
+      "path": "ddf--datapoints--nettoflytt_arb_ackumulerat--by--geo--time.csv",
+      "name": "nettoflytt_arb_ackumulerat--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "nettoflytt_arb_ackumulerat"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--nettoflytt_utb--by--geo--time.csv",
       "name": "nettoflytt_utb--by--geo--time",
       "schema": {
@@ -501,6 +522,27 @@
           },
           {
             "name": "nettoflytt_utb"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--nettoflytt_utb_ackumulerat--by--geo--time.csv",
+      "name": "nettoflytt_utb_ackumulerat--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "nettoflytt_utb_ackumulerat"
           }
         ],
         "primaryKey": [
@@ -933,9 +975,29 @@
           "geo",
           "time"
         ],
+        "value": "nettoflytt_arb_ackumulerat",
+        "resources": [
+          "nettoflytt_arb_ackumulerat--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
         "value": "nettoflytt_utb",
         "resources": [
           "nettoflytt_utb--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "nettoflytt_utb_ackumulerat",
+        "resources": [
+          "nettoflytt_utb_ackumulerat--by--geo--time"
         ]
       },
       {
