@@ -26,3 +26,7 @@ migration,Migration,
 boende,Boende,
 nettoflytt_utb_ackumulerat,Netto inflyttade ackumulerat (arbete),migration
 nettoflytt_arb_ackumulerat,Netto inflyttade ackumulerat (utbildning),migration
+utbildningsniva_andel_kvinnor,"Utbildningsvivå, kvinnor",utbildning
+utbildningsniva_andel_man,"Utbildningsvivå, män",utbildning
+utbildningsniva_andel_totalt,Utbildningsnivå total,utbildning
+utbildning,Utbildningsnivå, 

@@ -552,6 +552,69 @@
       }
     },
     {
+      "path": "ddf--datapoints--utbildningsniva_andel_kvinnor--by--geo--time.csv",
+      "name": "utbildningsniva_andel_kvinnor--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "utbildningsniva_andel_kvinnor"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--utbildningsniva_andel_man--by--geo--time.csv",
+      "name": "utbildningsniva_andel_man--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "utbildningsniva_andel_man"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints--utbildningsniva_andel_totalt--by--geo--time.csv",
+      "name": "utbildningsniva_andel_totalt--by--geo--time",
+      "schema": {
+        "fields": [
+          {
+            "name": "geo"
+          },
+          {
+            "name": "time"
+          },
+          {
+            "name": "utbildningsniva_andel_totalt"
+          }
+        ],
+        "primaryKey": [
+          "geo",
+          "time"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints--utrikes_fodda_kvinnor--by--geo--time.csv",
       "name": "utrikes_fodda_kvinnor--by--geo--time",
       "schema": {
@@ -998,6 +1061,36 @@
         "value": "nettoflytt_utb_ackumulerat",
         "resources": [
           "nettoflytt_utb_ackumulerat--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "utbildningsniva_andel_kvinnor",
+        "resources": [
+          "utbildningsniva_andel_kvinnor--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "utbildningsniva_andel_man",
+        "resources": [
+          "utbildningsniva_andel_man--by--geo--time"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "time"
+        ],
+        "value": "utbildningsniva_andel_totalt",
+        "resources": [
+          "utbildningsniva_andel_totalt--by--geo--time"
         ]
       },
       {
